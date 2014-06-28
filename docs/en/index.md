@@ -3,7 +3,7 @@ at developers.
 Please read our [guide to contributing documentation](misc/contributing/documentation) if you want to help out!
 
 ### Overview
-
+ 
  * [Getting started](http://silverstripe.org/getting-started/) | [Feature Overview](http://silverstripe.org/introduction/) | [Demo](http://demo.silverstripe.org/)
  * [Download and Installation](installation/) | [Upgrading](/installation/upgrading) | [Requirements](/installation/server-requirements) | [Changelog](/changelogs) | [Roadmap](http://www.silverstripe.org/roadmap/)  
  * [API documentation](http://api.silverstripe.org/current) | [Official english book](http://www.silverstripe.org/silverstripe-book) | [Official german book](http://www.silverstripe.org/das-silverstripe-buch)  
