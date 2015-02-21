@@ -67,6 +67,30 @@ if [ "$1" = "installsake" ]; then
 fi
 
 ################################################################################################
+## Jumpstart a php server
+if [ "$1" = "jumpstart" ]; then
+		# Check for a port argument
+		if [ ${2:-""} = "" ]; then
+			echo "
+No port set.
+Usage: $0 $1 (port-number)
+Starts a built-in PHP server environment on the desired port"
+			exit 1
+		fi
+		echo "Jumpstarting SilverStripe...
+WARNING: The built-in web server is not intended to be a full-featured development 
+environment, do not use on a public network.
+
+Suggested: Install SQLite3 database connector for a simple SilverStipe environment.
+
+comopser require silverstripe/sqlite3
+
+"
+		php -S localhost:$2 ./framework/main.php
+		exit 1
+fi
+################################################################################################
+
 ## Process control
 
 if [ "$1" = "-start" ]; then
