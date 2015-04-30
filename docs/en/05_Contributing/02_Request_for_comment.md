@@ -4,10 +4,10 @@
 This is part of the SilverStripe core decision-making process and addresses the gap between the idea phase and the pull request submission (and merge).
 
 The rationale behind this process is to:
- * Improve visibility on how the decisions made, producing a more open community mood
+ * Encourage visibility on decision making
  * Clarity on what the proposal is, its rationale and impact
  * Reduce unnecessary work when coding large features is done without community and core-committers buy-in
- * Improved likelihood of an optimal solution being merged - the pressure is much higher to approve the change if the coding has already been done (it’s much easier to make adjustments in the design phase)
+ * Improved likelihood of an optimal solution being merged
 
 The important thing to understand about the RFCs is that these are NOT a way to request features. Rather, they are a way to bring clarity so people understand what change is being proposed.
 
@@ -32,7 +32,7 @@ The following heading can act as a template to starting your RFC.
  * **Impact** - How will this change potentially impact on SilverStripe core? The good and the bad.
 
 ###Submitting
-Once complete submit the RFC as a GitHub issue, in markdown format and include the ID number of the RFC based on the current list of existing proposals.
+Once complete submit the RFC as a GitHub issue, in markdown format and include the ID number of the RFC based on the current list of existing proposals. The GitHub Issue will be closed once a pull request containing the feature gets merged.
 
 ## What next?
 The RFC will be raised and discussed by the core committers in the monthly Google Hangout sessions, a vote for accepting the RFC will be taken requiring a majority vote (with at least a quorum of more than half of the core committers present).
