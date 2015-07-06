@@ -26,13 +26,15 @@ The benefits of writing an RFC for non-trivial feature proposals are:
 ### Template
 The following heading can act as a template to starting your RFC.
  * **Introduction** - include a reference #, title, author
+ * **Metadata** - standardised header containing at least the Author(s), Status and Version fields.
+ * **Purpose and outcome** - the purpose of this document, and the expected outcome.
  * **Motivation** - why this is a good idea
  * **Proposal** - how you propose to implement the idea after community discussion
  * **Alternatives** - what other approaches were considered during the community discussion phase and why they were not chosen
  * **Impact** - How will this change potentially impact on SilverStripe core? The good and the bad.
 
 ###Submitting
-Once complete submit the RFC as a GitHub issue, in markdown format and include the ID number of the RFC based on the current list of existing proposals. The GitHub Issue will be closed once a pull request containing the feature gets merged.
+Once complete submit the RFC as a GitHub issue, in markdown format and include the ID number of the RFC based on the current list of existing proposals. The GitHub Issue will be closed once a pull request containing the feature gets merged. Add your RFC to the Archive in this documentation to keep track of the submission IDs and history.
 
 ## What next?
 The RFC will be raised and discussed by the core committers in the monthly Google Hangout sessions, a vote for accepting the RFC will be taken requiring a majority vote (with at least a quorum of more than half of the core committers present).
@@ -41,6 +43,10 @@ Once approved this means that if a pull request meeting the idea set out in the 
 
 
 ## RFC Archive
- RFC # | Proposal | Status
------- |----------|-------
-RFC-1  | [Asset abstraction](https://github.com/silverstripe/silverstripe-framework/issues/3792) | Approved
+ RFC # | Author | Proposal | Status
+------ |--------|----------|-------
+RFC-1  | mateusz |[Asset abstraction](https://github.com/silverstripe/silverstripe-framework/issues/3792) | Approved
+RFC-2  | jonom | [Error page simplification](https://github.com/silverstripe/silverstripe-framework/issues/4149) | Pending review
+RFC-3  | willmorgan | [Retiring and replacing the web test runner](https://github.com/silverstripe/silverstripe-framework/issues/4254) | Pending review
+RFC-4  | flashbackzoo | [Client-side dependency management](https://github.com/silverstripe/silverstripe-framework/issues/4372) | Draft
+RFC-5  | A7DC | [UX wireframes of proposed site tree and navigation changes](https://github.com/silverstripe/silverstripe-framework/issues/4185) | Pending review
