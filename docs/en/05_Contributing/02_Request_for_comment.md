@@ -5,9 +5,9 @@ This is part of the SilverStripe core decision-making process and addresses the 
 
 The rationale behind this process is to:
  * Encourage visibility on decision making
- * Clarity on what the proposal is, its rationale and impact
- * Reduce unnecessary work when coding large features is done without community and core-committers buy-in
- * Improved likelihood of an optimal solution being merged
+ * Clarify what the proposal is, its rationale and impact
+ * Avoid redundant development effort by gaining approval for changes before implementing them
+ * Improve the likelihood of an optimal solution being merged
 
 The important thing to understand about the RFCs is that these are NOT a way to request features. Rather, they are a way to bring clarity so people understand what change is being proposed.
 
@@ -24,14 +24,14 @@ The benefits of writing an RFC for non-trivial feature proposals are:
 	
 ## How to write an RFC?
 ### Template
-The following heading can act as a template to starting your RFC.
- * **Introduction** - include a reference #, title, author
- * **Metadata** - standardised header containing at least the Author(s), Status and Version fields.
- * **Purpose and outcome** - the purpose of this document, and the expected outcome.
- * **Motivation** - why this is a good idea
- * **Proposal** - how you propose to implement the idea after community discussion
- * **Alternatives** - what other approaches were considered during the community discussion phase and why they were not chosen
- * **Impact** - How will this change potentially impact on SilverStripe core? The good and the bad.
+The following structure can act as a template for starting your RFC.
+ * **Title** - short descriptive title which includes reference number e.g. *"RFC-4: Client-side dependency management"*.
+ * **Metadata** - standardised header containing at least the Author(s), Status, Version and Last Updated fields.
+ * **Purpose and outcome** - briefly describe the problem and solution your RFC addresses.
+ * **Motivation** - describe the problem in more detail.
+ * **Proposal** - describe the solution in more detail, including any questions or considerations that will need to be addressed during development.
+ * **Alternatives** - describe any other approaches that were considered during the community discussion phase and why they were not chosen.
+ * **Impact** - How will this change potentially impact SilverStripe core? List any positive and negative effects and upgrade considerations.
 
 ###Submitting
 Once complete submit the RFC as a GitHub issue, in markdown format and include the ID number of the RFC based on the current list of existing proposals. The GitHub Issue will be closed once a pull request containing the feature gets merged. Add your RFC to the Archive in this documentation to keep track of the submission IDs and history.
@@ -39,8 +39,8 @@ Once complete submit the RFC as a GitHub issue, in markdown format and include t
 ## What next?
 The RFC will be raised and discussed by the core committers in the monthly Google Hangout sessions, a vote for accepting the RFC will be taken requiring a majority vote (with at least a quorum of more than half of the core committers present).
 
-Once approved this means that if a pull request meeting the idea set out in the RFC was raised that it would be merged (pending the usual code peer review).
-
+Once an RFC has been approved, it is safe to begin working on implementing the proposed changes. If a pull request is raised that fulfils the proposal set out in the RFC, it would be merged (pending the usual code peer review).
+After merging, the RFC Issue on GitHub would be closed.
 
 ## RFC Archive
  RFC # | Author | Proposal | Status
